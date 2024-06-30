@@ -122,11 +122,17 @@ The synthetic data generation took significantly longer than the training phase 
 
 ## Performance and Quality of advice
 
-It hard to evaluate the results of a model like this. A rigorous approach would involve a combination of human feedback and use of a "model as a judge" technique to evaluate the quality of the advice given between the fine-tuned and the vanilla models. 
+It hard to evaluate the results of a model like this. A rigorous approach would involve a combination of human feedback and use of a "model as a judge" technique to evaluate the quality of the advice given between the fine-tuned and the vanilla models.
 
-| Metric          | Score | Clarity | Engagement | Supportiveness | Relevance |
-|-----------------|-------|---------|------------|----------------|-----------|
-| finetuned 7B lr1e-5 10 epochs | 4.0   | 3.0     | 3.1        | 3.9          | 3.5       |
+Due to time constraints only evaluation using Mistral Large as a judge was performed, on 10 conversations performed by each of the following models.
+
+| Model                  | Relevance | Clarity | Engagement | Supportiveness |
+|------------------------|-----------|---------|------------|-----------------|
+| Finetuned lr_1e-5      | 3.7       | 3.0     | 3.1        | 3.8             |
+| Vanilla 7B             | 3.6       | 3.0     | 3.1        | 3.9             |
+| Finetuned lr_1e-4      | 3.0       | 3.0     | 3.0        | 3.4             |
+| Vanilla Large Latest   | 3.8       | 3.3     | 3.7        | 3.9             |
+
 
 
 ## Safety
