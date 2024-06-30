@@ -37,9 +37,11 @@ Humans are intersectional in nature and cannot be easily categorised into person
 
 Even doing this for some reason the model converges on the name `Alex` extremely often irrespective of it being incongruent with other character traits passed in the dictionary. For example:
 
-`I'm Alex, a 26-year-old Public Relations Specialist working in the bustling heart of London. I was born and raised in a small town in Greece,`
+- `I'm Alex, a 26-year-old Public Relations Specialist working in the bustling heart of London. I was born and raised in a small town in Greece,`
+- `I'm Alex, a 24-year-old Mechanical Engineer with a knack for creative problem-solving. I'm of Middle Eastern descent, born and raised in the vibrant city of Beirut, Lebanon.`
+- `Hey there! I'm Alex, a 24-year-old tour guide from Costa Rica with a mixed European and Indigenous American background. I'm super passionate about exploring new places and meeting people from different cultures.`
 
-which is statistically improbable. This could also be misconstrued as "diversity" as we might argue, that it being a tail of the distribution it's a good sample, rather it's likely inconsistent with reality and occurring due to English being a large subset of the corpora the model has seen. We might also need a name dictionary!
+which is statistically improbable and unrepresentative of name distributions world-wide. Whilst a single one of these cases could be misconstrued as "diversity", under the argument that it being a tail of the distribution it is a good sample, as a whole they are inconsistent with reality and likely ocurring due to English being a large subset of the corpora the model has seen. We might also need a name dictionary!
 
 ## Quality of advice
 
