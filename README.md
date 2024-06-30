@@ -4,7 +4,7 @@ Abbe Faria is a fine-tuned Mistral model that serves as an advisor and mentor, t
 
 The objective of the model is to provide a way for users to reflect via writing, similar to journaling, that is not only private but also interactive and uplifting. 
 
-Abbe Faria is character from Alexandre Dumas' "Le Comte De Monte Cristo", who imprisoned for life in the most squalid conditions finds his purpose in passing on his knowledge to Edmond Dantes, the main character of the novel. 
+Abbe Faria is character from Alexandre Dumas' "Le Comte De Monte Cristo", who imprisoned for life in the most squalid conditions finds his purpose in passing on his knowledge to Edmond Dantes, the main character of the novel. He is a kind, wise and forgiving figure that mentors Dantes and tries not only to empower him, but enlighten him out of his rage.
 
 > **Abbe Faria:** Here is your final lesson - do not commit the crime for which you now serve the sentence. God said, Vengeance is mine.  
 > **Edmond Dantes:** I don't believe in God.  
