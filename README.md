@@ -101,13 +101,13 @@ Even doing this for some reason the model converges on the name `Alex` extremely
 
 These are statistically improbable and unrepresentative of regional name distributions. Whilst a single one of these cases could be misconstrued as "diversity", under the argument that a tail of the distribution could be a good sample, as a whole they are inconsistent with reality and likely ocurring due to English being a large subset of the corpora the model has seen, or particular training data preprocessing carried out by Mistral.
 
-Moreover we see the repetition of the 24, and 26 as ages for the character. Again it is quite an interesting peculiarity of the model that could be investigated further.
+Moreover we see the repetition of the `24`, and `26` as ages for the character. Again it is quite an interesting peculiarity of the model that could be investigated further.
 
 We might also need an age and name dictionary!
 
 ### Time
 
-The synthetic data generation took significantly longer than the training phase due to API throttling and Mistral API response times (only one required for fine-tuning, but 1 per turn required for generation). On average a full "conversation" turn took on the range of 60-80s to generate. 
+The synthetic data generation took significantly longer than the training phase due to API throttling and Mistral API response times (only one required for fine-tuning, but 1 per turn required for generation). On average a full "conversation" turn took on the range of $$60s-80s$$ to generate. 
 
 ## Quality of advice
 
