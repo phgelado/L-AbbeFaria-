@@ -120,9 +120,14 @@ We might also need an age and name dictionary!
 
 The synthetic data generation took significantly longer than the training phase due to API throttling and Mistral API response times (only one required for fine-tuning, but 1 per turn required for generation). On average a full "conversation" turn took on the range of $60s-80s$ to generate. 
 
-## Quality of advice
+## Performance and Quality of advice
 
 It hard to evaluate the results of a model like this. A rigorous approach would involve a combination of human feedback and use of a "model as a judge" technique to evaluate the quality of the advice given between the fine-tuned and the vanilla models. 
+
+| Metric          | Score | Clarity | Engagement | Supportiveness | Relevance |
+|-----------------|-------|---------|------------|----------------|-----------|
+| finetuned 7B lr1e-5 10 epochs | 4.0   | 3.0     | 3.1        | 3.9          | 3.5       |
+
 
 ## Safety
 
