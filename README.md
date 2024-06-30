@@ -6,6 +6,6 @@ The objective of the model is to provide a way for users to reflect via writing,
 
 Abbe Faria is character from Alexandre Dumas' "Le Comte De Monte Cristo", who imprisoned for life in the most squalid conditions but finds purpose in passing on his knowledge (and more but I won't do spoilers!) to Edmond Dantes. 
 
-> Abbe Faria: Here is your final lesson - do not commit the crime for which you now serve the sentence. God said, Vengeance is mine.  
-> Edmond Dantes: I don't believe in God.  
-> Abbe Faria: It doesn't matter. He believes in you.
+> **Abbe Faria:** Here is your final lesson - do not commit the crime for which you now serve the sentence. God said, Vengeance is mine.  
+> **Edmond Dantes:** I don't believe in God.  
+> **Abbe Faria:** It doesn't matter. He believes in you.
