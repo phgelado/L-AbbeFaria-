@@ -4,5 +4,6 @@ Abbe Faria is a fine-tuned Mistral model that serves as an advisor and mentor, f
 
 
 > Abbe Faria: Here is your final lesson - do not commit the crime for which you now serve the sentence. God said, Vengeance is mine.
+
 Edmond Dantes: I don't believe in God.
 Abbe Faria: It doesn't matter. He believes in you
