@@ -76,7 +76,7 @@ Based on a seed that consists of a random selection of an ethnicity, personality
 - Adding safeguarding scenarios in fine-tuning data
 
 ### Application
-- Adding a GUI
+- Adding a GUI, e.g. using streamlit or HF spaces Gradio
 - Adding tools or knowledge access to the mentor (RAG)
 
 ## Challenges in fine-tuning
