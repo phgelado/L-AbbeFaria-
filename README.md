@@ -45,7 +45,7 @@ which is statistically improbable and unrepresentative of name distributions wor
 
 Moreover we see the repetition of the 24, and 26 as ages for the character. Again it is quite an interesting peculiarity of the model that could be investigated further.
 
-We might also need a name dictionary!
+We might also need an age and name dictionary!
 
 ## Quality of advice
 
