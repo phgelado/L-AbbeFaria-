@@ -1,6 +1,6 @@
 # L'Abbe Faria
 
-Abbe Faria is a fine-tuned Mistral model that serves as an advisor and mentor, fine-tuned on synthetically generated conversations between two Mistral personnas, a younger and older version of the same person who share questions and advice.
+Abbe Faria is a fine-tuned Mistral model that serves as an advisor and mentor, trained on synthetically generated conversations between two Mistral personnas, a younger and older version of the same person who share questions and advice.
 
 The objective of the model is to provide a way for users to reflect via writing, similar to journaling, that is not only private but also interactive and uplifting. 
 
