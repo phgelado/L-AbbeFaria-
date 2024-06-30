@@ -41,7 +41,9 @@ Even doing this for some reason the model converges on the name `Alex` extremely
 - `I'm Alex, a 24-year-old Mechanical Engineer with a knack for creative problem-solving. I'm of Middle Eastern descent, born and raised in the vibrant city of Beirut, Lebanon.`
 - `Hey there! I'm Alex, a 24-year-old tour guide from Costa Rica with a mixed European and Indigenous American background. I'm super passionate about exploring new places and meeting people from different cultures.`
 
-which is statistically improbable and unrepresentative of name distributions world-wide. Whilst a single one of these cases could be misconstrued as "diversity", under the argument that it being a tail of the distribution it is a good sample, as a whole they are inconsistent with reality and likely ocurring due to English being a large subset of the corpora the model has seen. We might also need a name dictionary!
+which is statistically improbable and unrepresentative of name distributions world-wide. Whilst a single one of these cases could be misconstrued as "diversity", under the argument that it being a tail of the distribution it is a good sample, as a whole they are inconsistent with reality and likely ocurring due to English being a large subset of the corpora the model has seen or particular training data preprocessing.
+
+We might also need a name dictionary!
 
 ## Quality of advice
 
