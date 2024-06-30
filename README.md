@@ -35,7 +35,7 @@ This is done to account for the fact that in a real world chat based conversatio
 
 Humans are intersectional in nature and cannot be easily categorised into personality dictionaries, this is (un)fortunately an unsolvable problem in synthetic data generation of this type. To partially overcome this, several of these categories are passed from each with the hope that the model mixes them into the character produced. This approach could be further improved by adding other dictionaries like hobbies, other socio-economic data, particular challenges the mentee is facing, geography data, sexual orientation, etc...
 
-Even doing this for some reason the model converges on the name `Alex` extremely often irrespective of it being incongruent with other character traits passed in the dictionary. For example, from one of the final training examples:
+Even doing this for some reason the model converges on the name `Alex` extremely often irrespective of it being incongruent with other character traits passed in the dictionary. For example:
 
 `I'm Alex, a 26-year-old Public Relations Specialist working in the bustling heart of London. I was born and raised in a small town in Greece,`
 
