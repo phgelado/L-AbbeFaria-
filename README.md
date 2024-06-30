@@ -8,6 +8,6 @@ Abbe Faria is character from Alexandre Dumas' "Le Comte De Monte Cristo", who im
 
 > Abbe Faria: Here is your final lesson - do not commit the crime for which you now serve the sentence. God said, Vengeance is mine.  
   
-Edmond Dantes: I don't believe in God.  
+> Edmond Dantes: I don't believe in God.  
   
-Abbe Faria: It doesn't matter. He believes in you.
+> Abbe Faria: It doesn't matter. He believes in you.
