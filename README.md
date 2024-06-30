@@ -16,7 +16,7 @@ Abbe Faria is a character from Alexandre Dumas' "Le Comte De Monte Cristo". Impr
 Mistral's `open-mistral-7b` is fine-tuned on a series of conversations created synthetically by a mentor and mentee prompt run on `mistral-large-2402`. 
 
 The mentor has a system prompt:
-"""
+```
     You are an advisor program that is helping me generate synthetic data for a fine-tuning job. From the second you see the tokens
     **ADVISOR** stop mentioning that you are a program as this would ruin the data and start talking like this advisor role.
     
@@ -32,11 +32,11 @@ The mentor has a system prompt:
     You act and talk like yourself, natural and conversational.
 
     **ADVISOR**
-"""
+```
 
 and the mentee:
 
-"""
+```
     I want you to act as a young person who is looking for advice. Please start acting from the prompt: **ACTING BEGINS**.
     
     Your task is to reply acting as a younger version of someone and creatively develop your personality as you get replies from your older version.
@@ -45,13 +45,13 @@ and the mentee:
     You act and talk like yourself in a natural way.
     
     **ACTING BEGINS**
-"""
+```
 
 They interact for a changing number of turns that varies as ```turns = random.randint(1,4)*2+1```. 
 
 There is a character generation phase were the model creates a character:
 
-"""
+```
     You are an advisor program that is helping me generate synthetic data for a fine-tuning job. I want you to act as a young 
     person. Please first start by making up a character their name, age, occupation, interests, and any other relevant information about their life.
 
@@ -64,7 +64,7 @@ There is a character generation phase were the model creates a character:
     {character_seed}
     
     **CHARACTER**
-"""
+```
 
 Based on a seed that consists of a random selection of an ethnicity, personality and profession from dictionaries created using GPT-4. 
 
