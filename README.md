@@ -50,7 +50,7 @@ We might also need an age and name dictionary!
 
 ## Quality of advice
 
-It hard to evaluate the results of a model like this. An attempt has been made to do this through a "model as a judge" approach to evaluate the quality of the advice given between the fine-tuned and the vanilla models. 
+It hard to evaluate the results of a model like this. A rigorous approach would involve a combination of human feedback and use of a "model as a judge" technique to evaluate the quality of the advice given between the fine-tuned and the vanilla models. 
 
 ## Safety
 
