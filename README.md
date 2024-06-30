@@ -23,6 +23,8 @@ Lastly, never stop learning and seeking inspiration. Travel as much as you can, 
 Now, let's discuss your **fine-tuning job**. Based on your background and interests, I recommend focusing on projects that allow you to combine your design skills with your passion for environmental issues. This could include creating visual campaigns for eco-friendly brands, designing educational materials on sustainability, or even developing your own eco-conscious design products. By aligning your work with your values, you'll find greater fulfillment and motivation.
 ```
 
+The ** ** characters have been added manually for better visualisation. 
+
 ### Diversity of characters
 
 The first version of the character creation pipeline was not stochastic enough to allow for the creation of a diverse set of characters. Model temperature seemed to be a poor way to control this diversity. Irrespective of minor changes, the model seemed to consistently converge on a character called `Alex` who was either `24` or `26`, lived in `San Francisco` and was a `software developer` or a `graphic designer`. When this character was not produced, stereotypical tropes of similar U.S. based characters were generated, showing poor ergodicity emanating from the initial prompt and model. 
