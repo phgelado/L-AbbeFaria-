@@ -29,7 +29,7 @@ The first version of the character creation pipeline was not stochastic enough t
 
 To encourage the model to create more diverse characters personality, ethnicity and profession dictionaries were created using GPT-4. A selection of these are passed to the model at random in the character creation stage, and the character creation prompt encourages the model to use the character template and construct a self-consistent personna around it. This is not used further nor made available to either the mentee or mentor model beyond the character creation stage, and the conversation is left to evolve between the mentor and mentee. 
 
-Humans are intersectional in nature and cannot be easily categorised into personality dictionaries, this is an unsolvable problem in synthetic data generation of this type. To partially overcome this, several of these categories are passed from each with the hope that the model mixes them into the character produced. This approach could be further improved by adding features like hobbies, other socio-economic background data, geography data, sexual orientation, etc...
+Humans are intersectional in nature and cannot be easily categorised into personality dictionaries, this is an unsolvable problem in synthetic data generation of this type. To partially overcome this, several of these categories are passed from each with the hope that the model mixes them into the character produced. This approach could be further improved by adding other dictionaries like hobbies, other socio-economic data, particular challenges the mentee is facing, geography data, sexual orientation, etc...
 
 
 
