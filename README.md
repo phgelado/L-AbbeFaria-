@@ -47,7 +47,7 @@ and the mentee:
     **ACTING BEGINS**
 ```
 
-They interact for a changing number of turns that varies as ```turns = random.randint(1,4)*2+1```. 
+They interact for a changing number of turns that varies as ```turns = random.randint(1,4)*2+1```. This was chosen as a reasonable length but is arbitrary.
 
 There is a character generation phase were the model creates a character:
 
@@ -104,6 +104,10 @@ These are statistically improbable and unrepresentative of regional name distrib
 Moreover we see the repetition of the 24, and 26 as ages for the character. Again it is quite an interesting peculiarity of the model that could be investigated further.
 
 We might also need an age and name dictionary!
+
+### Time
+
+The synthetic data generation took significantly longer than the training phase due to API throttling and Mistral API response times (only one required for fine-tuning, but 1 per turn required for generation). On average it turn took on the range of 25-64s. 
 
 ## Quality of advice
 
