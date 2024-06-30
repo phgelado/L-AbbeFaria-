@@ -1,0 +1,79 @@
+{
+  "ethnicities": [
+    {
+      "name": "African",
+      "description": "People with origins from the African continent, including diverse cultures, languages, and traditions.",
+      "regions": ["Sub-Saharan Africa", "North Africa"]
+    },
+    {
+      "name": "Arab",
+      "description": "People with origins from the Arab world, characterized by a shared Arabic language and cultural heritage.",
+      "regions": ["Middle East", "North Africa"]
+    },
+    {
+      "name": "Asian",
+      "description": "People with origins from the Asian continent, encompassing a wide range of cultures, languages, and traditions.",
+      "regions": ["East Asia", "Southeast Asia", "South Asia", "Central Asia"]
+    },
+    {
+      "name": "Caucasian",
+      "description": "People with origins from Europe, Western Asia, and parts of North Africa, characterized by diverse cultures and languages.",
+      "regions": ["Europe", "Middle East", "North Africa"]
+    },
+    {
+      "name": "Hispanic/Latino",
+      "description": "People with origins from Spanish-speaking countries, primarily in Latin America and Spain, sharing cultural and linguistic ties.",
+      "regions": ["Latin America", "Spain"]
+    },
+    {
+      "name": "Indigenous",
+      "description": "People native to a particular region, maintaining distinct cultural, linguistic, and social traditions.",
+      "regions": ["Various regions worldwide, including Americas, Australia, Arctic, and more"]
+    },
+    {
+      "name": "Pacific Islander",
+      "description": "People with origins from the Pacific Islands, including a variety of unique cultures and languages.",
+      "regions": ["Polynesia", "Micronesia", "Melanesia"]
+    },
+    {
+      "name": "South Asian",
+      "description": "People with origins from the Indian subcontinent, characterized by diverse cultures, languages, and religions.",
+      "regions": ["India", "Pakistan", "Bangladesh", "Sri Lanka", "Nepal", "Bhutan"]
+    },
+    {
+      "name": "Middle Eastern",
+      "description": "People with origins from the Middle East, sharing cultural, linguistic, and historical ties.",
+      "regions": ["Middle Eastern countries including Iran, Iraq, Israel, Jordan, Lebanon, Syria, and others"]
+    },
+    {
+      "name": "Afro-Caribbean",
+      "description": "People with African heritage who live in or originate from the Caribbean region, often characterized by a blend of African, European, and Indigenous cultures.",
+      "regions": ["Caribbean islands including Jamaica, Haiti, Trinidad and Tobago, Barbados, and others"]
+    },
+    {
+      "name": "Native American",
+      "description": "Indigenous peoples of the Americas, with diverse tribes and cultures native to North, Central, and South America.",
+      "regions": ["United States", "Canada", "Central and South America"]
+    },
+    {
+      "name": "European",
+      "description": "People with origins from the European continent, encompassing a wide range of ethnic groups, languages, and cultures.",
+      "regions": ["Western", "Eastern", "Northern", "Southern Europe"]
+    },
+    {
+      "name": "Jewish",
+      "description": "People who identify with the Jewish religion, culture, and ethnicity, sharing a common heritage and traditions.",
+      "regions": ["Worldwide, with significant populations in Israel, United States, and Europe"]
+    },
+    {
+      "name": "Romani",
+      "description": "An ethnic group with origins in Northern India, traditionally known for a nomadic lifestyle and distinct cultural practices.",
+      "regions": ["Europe", "Americas"]
+    },
+    {
+      "name": "Mestizo",
+      "description": "People of mixed European and Indigenous American ancestry, commonly found in Latin American countries.",
+      "regions": ["Latin America"]
+    }
+  ]
+}

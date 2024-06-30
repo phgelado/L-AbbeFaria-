@@ -1,0 +1,100 @@
+{
+  "personality_types": [
+    {
+      "name": "The Analyst",
+      "description": "Highly logical and analytical, thrives on data and objective reasoning.",
+      "strengths": ["Problem-solving", "Strategic thinking"],
+      "weaknesses": ["Can be overly critical", "May struggle with emotional situations"]
+    },
+    {
+      "name": "The Diplomat",
+      "description": "Empathetic and cooperative, values harmony and relationships.",
+      "strengths": ["Communication", "Conflict resolution"],
+      "weaknesses": ["Can be overly idealistic", "May avoid confrontation"]
+    },
+    {
+      "name": "The Sentinel",
+      "description": "Dependable and responsible, values tradition and stability.",
+      "strengths": ["Organization", "Reliability"],
+      "weaknesses": ["Can be resistant to change", "May struggle with flexibility"]
+    },
+    {
+      "name": "The Explorer",
+      "description": "Spontaneous and energetic, loves adventure and new experiences.",
+      "strengths": ["Adaptability", "Creativity"],
+      "weaknesses": ["Can be impulsive", "May struggle with long-term planning"]
+    },
+    {
+      "name": "The Commander",
+      "description": "Confident and assertive, natural leader with a clear vision.",
+      "strengths": ["Leadership", "Decisiveness"],
+      "weaknesses": ["Can be domineering", "May overlook others' feelings"]
+    },
+    {
+      "name": "The Advocate",
+      "description": "Idealistic and principled, driven by a strong sense of justice.",
+      "strengths": ["Passion", "Dedication"],
+      "weaknesses": ["Can be perfectionistic", "May struggle with pragmatism"]
+    },
+    {
+      "name": "The Mediator",
+      "description": "Reflective and caring, deeply values personal connections and inner harmony.",
+      "strengths": ["Compassion", "Creativity"],
+      "weaknesses": ["Can be overly self-critical", "May struggle with assertiveness"]
+    },
+    {
+      "name": "The Architect",
+      "description": "Innovative and strategic, enjoys designing systems and long-term planning.",
+      "strengths": ["Insight", "Originality"],
+      "weaknesses": ["Can be disconnected from reality", "May struggle with practicality"]
+    },
+    {
+      "name": "The Consul",
+      "description": "Sociable and caring, enjoys helping others and organizing social gatherings.",
+      "strengths": ["Loyalty", "Community-building"],
+      "weaknesses": ["Can be people-pleasing", "May struggle with independence"]
+    },
+    {
+      "name": "The Virtuoso",
+      "description": "Practical and hands-on, enjoys working with tools and solving practical problems.",
+      "strengths": ["Innovation", "Technical skills"],
+      "weaknesses": ["Can be stubborn", "May struggle with abstract concepts"]
+    },
+    {
+      "name": "The Entertainer",
+      "description": "Fun-loving and spontaneous, enjoys being the center of attention.",
+      "strengths": ["Charisma", "Enthusiasm"],
+      "weaknesses": ["Can be disorganized", "May struggle with follow-through"]
+    },
+    {
+      "name": "The Executive",
+      "description": "Organized and driven, enjoys managing projects and people.",
+      "strengths": ["Leadership", "Efficiency"],
+      "weaknesses": ["Can be inflexible", "May struggle with innovation"]
+    },
+    {
+      "name": "The Campaigner",
+      "description": "Enthusiastic and creative, loves inspiring others and exploring new ideas.",
+      "strengths": ["Energy", "Optimism"],
+      "weaknesses": ["Can be scattered", "May struggle with focus"]
+    },
+    {
+      "name": "The Logistician",
+      "description": "Detail-oriented and reliable, enjoys working with data and processes.",
+      "strengths": ["Precision", "Dependability"],
+      "weaknesses": ["Can be overly rigid", "May struggle with change"]
+    },
+    {
+      "name": "The Caregiver",
+      "description": "Compassionate and nurturing, enjoys supporting and caring for others.",
+      "strengths": ["Empathy", "Patience"],
+      "weaknesses": ["Can be overprotective", "May struggle with self-care"]
+    },
+    {
+      "name": "The Visionary",
+      "description": "Imaginative and strategic, enjoys dreaming big and planning for the future.",
+      "strengths": ["Innovation", "Foresight"],
+      "weaknesses": ["Can be impractical", "May struggle with execution"]
+    }
+  ]
+}
