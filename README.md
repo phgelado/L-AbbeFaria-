@@ -20,3 +20,7 @@ Lastly, never stop learning and seeking inspiration. Travel as much as you can, 
 
 Now, let's discuss your **fine-tuning job**. Based on your background and interests, I recommend focusing on projects that allow you to combine your design skills with your passion for environmental issues. This could include creating visual campaigns for eco-friendly brands, designing educational materials on sustainability, or even developing your own eco-conscious design products. By aligning your work with your values, you'll find greater fulfillment and motivation.
 ```
+
+## Safety
+
+This model is intended for a hackathon and has not been safety tested but relies on Mistral's base model safeguards. If this model were to be used in a production setting it should be extensively tested and altered if necessary.
