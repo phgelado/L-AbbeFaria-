@@ -68,6 +68,17 @@ There is a character generation phase were the model creates a character:
 
 Based on a seed that consists of a random selection of an ethnicity, personality and profession from dictionaries created using GPT-4. 
 
+## Future work
+
+### Training data
+- Improving the content generation to create a series of more diverse life scenarios and backgrounds for the mentee
+- In-context learning for the mentor in training by passing high-quality material of a relevant area, e.g. financial advice, psychology handbooks, mentoring samples
+- Adding safeguarding scenarios in fine-tuning data
+
+### Application
+- Adding a GUI
+- Adding tools or knowledge access to the mentor (RAG)
+
 ## Challenges in fine-tuning
 
 ### Prompt leakage
