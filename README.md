@@ -107,7 +107,7 @@ We might also need an age and name dictionary!
 
 ### Time
 
-The synthetic data generation took significantly longer than the training phase due to API throttling and Mistral API response times (only one required for fine-tuning, but 1 per turn required for generation). On average a full "conversation" turn took on the range of $$60s-80s$$ to generate. 
+The synthetic data generation took significantly longer than the training phase due to API throttling and Mistral API response times (only one required for fine-tuning, but 1 per turn required for generation). On average a full "conversation" turn took on the range of $60s-80s$ to generate. 
 
 ## Quality of advice
 
