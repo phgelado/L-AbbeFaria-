@@ -42,7 +42,7 @@ Even doing this for some reason the model converges on the name `Alex` extremely
 - `Hey there! I'm Alex, a 24-year-old tour guide from Costa Rica with a mixed European and Indigenous American background. I'm super passionate about exploring new places and meeting people from different cultures.`
 - `Hey there! I'm Alex, a 26-year-old electrician. I'm a hands-on kind of person, always tinkering with tools and gadgets. I love the satisfaction of solving practical problems, whether it's fixing a faulty circuit or installing a new lighting system.\n\nI'm of Arab descent, and I take pride in my heritage.`
 
-which is statistically improbable and unrepresentative of name distributions world-wide. Whilst a single one of these cases could be misconstrued as "diversity", under the argument that it being a tail of the distribution it is a good sample, as a whole they are inconsistent with reality and likely ocurring due to English being a large subset of the corpora the model has seen or particular training data preprocessing.
+These are statistically improbable and unrepresentative of regional name distributions. Whilst a single one of these cases could be misconstrued as "diversity", under the argument that a tail of the distribution could be a good sample, as a whole they are inconsistent with reality and likely ocurring due to English being a large subset of the corpora the model has seen, or particular training data preprocessing carried out by Mistral.
 
 Moreover we see the repetition of the 24, and 26 as ages for the character. Again it is quite an interesting peculiarity of the model that could be investigated further.
 
