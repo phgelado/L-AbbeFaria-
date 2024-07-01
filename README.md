@@ -133,12 +133,12 @@ Temperature was set as $0.2$ in the Judge model to ensure as much reproducibilit
 |-------------------------------|-----------|---------|------------|-----------------|
 | Vanilla Large Latest          | 3.8       | 3.3     | 3.7        | 3.9             |
 | Vanilla 7B                    | 3.6       | 3.0     | 3.1        | 3.9             |
-| Finetuned lr_1e-4             | 3.0       | 3.0     | 3.0        | 3.4             |
-| Finetuned lr_1e-5             | 3.7       | 3.0     | 3.1        | 3.8             |
+| Finetuned lr_1e-4 10 epochs            | 3.0       | 3.0     | 3.0        | 3.4             |
+| Finetuned lr_1e-5 10 epochs             | 3.7       | 3.0     | 3.1        | 3.8             |
 | Finetuned lr1e-6 100 epochs   | 3.8       | 3.0     | 3.2        | 3.9             |
 | Finetuning lr0.9e-6 115 epochs| 3.7       | 3.0     | 3.1        | 4.0             |
 
-Finetuning on this small dataset is shown to provide marginal improvements to the "student" 7B parameter model. None occur in the "Clarity", but the fine-tuned versions with learning rates equal to or smaller than $1e-5$ seem to have improvements in the other characters more related to tone than to model capabilities, i.e. engagement, supportiveness and relevance. 
+Finetuning on this small dataset is shown to provide marginal improvements to the "student" 7B parameter model. None occur in the "Clarity" category, but the fine-tuned versions with learning rates equal to or smaller than $1e-5$ seem to have improvements in the other characters more related to tone than to model capabilities, i.e. engagement, supportiveness and relevance. Agressive fine-tuning with high learning rates seem to be detrimental to model performance even for a small number of epochs. 
 
 ## Safety
 
