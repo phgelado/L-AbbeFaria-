@@ -71,7 +71,8 @@ Based on a seed that consists of a random selection of an ethnicity, personality
 ## Future work
 
 ### Training data
-- Improving the content generation to create a series of more diverse life scenarios and backgrounds for the mentee
+- Improving the content generation to create a series of more diverse life scenarios and backgrounds for the mentee, i.e. adding diversity to the training data#- Increasing by orders of magnitude the training data
+- Increasing the amount of training data significantly
 - In-context learning for the mentor in training by passing high-quality material of a relevant area, e.g. financial advice, psychology handbooks, mentoring samples
 - Adding safeguarding scenarios in fine-tuning data
 
