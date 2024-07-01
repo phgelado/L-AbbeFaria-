@@ -135,7 +135,7 @@ Due to time constraints only evaluation using Mistral Large as a judge was perfo
 | Finetuned lr1e-6 100 epochs   | 3.8       | 3.0     | 3.2        | 3.9             |
 | Finetuning lr0.9e-6 115 epochs| 3.7       | 3.0     | 3.1        | 4.0             |
 
-
+Finetuning on this small dataset is shown to provide marginal improvements to the "student" 7B parameter model. None occur in the "Clarity", but the fine-tuned versions with learning rates equal to or smaller than $1e-5$ seem to have improvements in the other characters more related to tone than to model capabilities, i.e. engagement, supportiveness and relevance. 
 
 ## Safety
 
