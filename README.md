@@ -124,7 +124,9 @@ The synthetic data generation took significantly longer than the training phase 
 
 It hard to evaluate the results of a model like this. A rigorous approach would involve a combination of human feedback and use of a "model as a judge" technique to evaluate the quality of the advice given between the fine-tuned and the vanilla models.
 
-Due to time constraints only evaluation using Mistral Large as a judge was performed, on 10 conversations performed by each of the following models. Temperature was set as $0.2$ to ensure as much reproducibility as possible, on the categories Relevance, Clarity, Engagement and Supportiveness.
+Due to time constraints only evaluation using Mistral Large as a judge was performed, on 10 conversations performed by each of the student models, both as mentor and mentees. Different results might be expected from a mentor-human or a mentor-Mistral Large combination.
+
+Temperature was set as $0.2$ in the Judge model to ensure as much reproducibility as possible, on the categories Relevance, Clarity, Engagement and Supportiveness.
 
 | Model                         | Relevance | Clarity | Engagement | Supportiveness |
 |-------------------------------|-----------|---------|------------|-----------------|
