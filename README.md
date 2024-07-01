@@ -126,13 +126,14 @@ It hard to evaluate the results of a model like this. A rigorous approach would 
 
 Due to time constraints only evaluation using Mistral Large as a judge was performed, on 10 conversations performed by each of the following models. Temperature was set as $0.2$ to ensure as much reproducibility as possible, on the categories Relevance, Clarity, Engagement and Supportiveness.
 
-| Model                      | Relevance | Clarity | Engagement | Supportiveness |
-|----------------------------|-----------|---------|------------|-----------------|
-| Vanilla Large Latest       | 3.8       | 3.3     | 3.7        | 3.9             |
-| Vanilla 7B                 | 3.6       | 3.0     | 3.1        | 3.9             |
-| Finetuned lr_1e-4 10 epochs | 3.0       | 3.0     | 3.0        | 3.4             |
-| Finetuned lr_1e-5 10 epochs | 3.7       | 3.0     | 3.1        | 3.8             |
-| Finetuned lr1e-6 100 epochs| 3.8       | 3.0     | 3.2        | 3.9             |
+| Model                         | Relevance | Clarity | Engagement | Supportiveness |
+|-------------------------------|-----------|---------|------------|-----------------|
+| Finetuned lr_1e-5             | 3.7       | 3.0     | 3.1        | 3.8             |
+| Vanilla 7B                    | 3.6       | 3.0     | 3.1        | 3.9             |
+| Finetuned lr_1e-4             | 3.0       | 3.0     | 3.0        | 3.4             |
+| Vanilla Large Latest          | 3.8       | 3.3     | 3.7        | 3.9             |
+| Finetuned lr1e-6 100 epochs   | 3.8       | 3.0     | 3.2        | 3.9             |
+| Finetuning lr0.9e-6 115 epochs| 3.7       | 3.0     | 3.1        | 4.0             |
 
 
 
